@@ -42,14 +42,94 @@
 
 //Шаг 4
 
-int count = 0;
-for (int ticket = 1; ticket <= 30; ticket++)
+// int count = 0;
+// for (int ticket = 1; ticket <= 30; ticket++)
+// {
+//     if (ticket == 4 || ticket == 12 || ticket == 19)
+//     {
+//         count++;
+//         continue;
+//     }
+//     Console.WriteLine($"Первый доступный билет: {ticket}\nБыло пропущено: {count}");
+//     break;
+// }
+
+
+
+
+
+//Шаг 5
+
+// for (; ; )
+// {
+//     Console.Write("Введите код группы (для выхода -'выход'):");
+//     string groupCode = Console.ReadLine();
+
+//     if (groupCode == "выход")
+//     {
+//         break;
+//     }
+//     Console.WriteLine($"Записан код группы: {groupCode}");
+// }
+// Console.WriteLine("Работа с журналом завершена");
+
+
+
+
+//Самостоятельные задания 
+//Задача A
+
+// Console.WriteLine("Введите число N: ");
+// int n = int.Parse(Console.ReadLine());
+
+// for (int i = 1; i <= n; i += 2)
+// {
+//     Console.WriteLine(i);
+// }
+
+
+
+
+//Задача Б
+
+
+// for (int i = 100; i>=0; i -= 10)
+// {
+//     Console.WriteLine(i);
+// }
+
+
+
+
+
+// задача 6
+
+// int n = 30;
+// for(int i = 1; i <= n; i++)
+// {
+//     if (i % 4 == 0)
+//     {
+//         continue;
+//     }
+//     Console.Write(i + " ");
+// }
+
+
+
+
+
+// задача 10
+
+int n = 6;
+
+for (int i = 1; i <= 5; i++)
 {
-    if (ticket == 4 || ticket == 12 || ticket == 19)
+    for (int j = 1; j <= 5; j++)
     {
-        count++;
-        continue;
+        if (i + j == n)
+        {
+            Console.WriteLine($"Пара: ({i}, {j})");
+            break;
+        }
     }
-    Console.WriteLine($"Первый доступный билет: {ticket}\nБыло пропущено: {count}");
-    break;
 }
