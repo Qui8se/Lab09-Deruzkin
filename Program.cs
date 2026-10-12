@@ -120,16 +120,17 @@
 
 // задача 10
 
-int n = 6;
+// int n = 6;
 
-for (int i = 1; i <= 5; i++)
-{
-    for (int j = 1; j <= 5; j++)
-    {
-        if (i + j == n)
-        {
-            Console.WriteLine($"Пара: ({i}, {j})");
-            break;
-        }
-    }
-}
+// for (int i = 1; i <= 5; i++)
+// {
+//     for (int j = 1; j <= 5; j++)
+//     {
+//         if (i + j == n)
+//         {
+//             Console.WriteLine($"Пара: ({i}, {j})");
+//             break;
+//         }
+//     }
+// }
+
